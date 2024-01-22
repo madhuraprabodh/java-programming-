@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Calculator {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+double num1 = scanner.nextDouble();
+double num2 = scanner.nextDouble();
+//addition and substraction 
+private static double addition(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    private static double subtraction(double num1, double num2) {
+        return num1 - num2;
+    }
